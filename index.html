@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>IMC: indice de massa corporal</title>
+</head>
+<body>
+    <header>
+        <h1 class="mainTitulo">Saúde e Bem-estar</h1>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Planos</a></li>
+            <li><a href="#">Contatos</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="container">
+            <img src="img/1911647-pessoas-fazendo-exercicios-em-casa-gratis-vetor.jpg" alt="">
+            <div class="texto">
+                <h2>IMC</h2>
+                <p>O IMC é um índice que mede se você está abaixo, dentro ou acima do peso, de acordo com a relação entre seu peso e altura. Descubra como calcular esse índice, quais os valores ideais, as exceções da tabela padrão, a especificidade do IMC para crianças e jovens e muito mais neste artigo completo.</p>
+                <h2 class="calculoImcTexto">Cálculo do Índice de Massa Corporal</h2>
+                <p>
+                Para a sua posição na tabela do Índice de Massa Corporal, você precisa de dois valores: seu peso e altura. É só dividir o peso (em quilos) pelo quadrado da altura (em metros), que é obtido pela multiplicação da altura por ela mesma.
+                Então, a fórmula fica assim: IMC = Peso / Altura².
+                </p>
+            </div>
+        </section>
+        <h2 class="tituloCalc">Calculadora imc:</h2>
+        <aside>
+            <form action="" class="form">
+                <label for="peso">Peso</label>
+                <input type="text" name="peso" id="peso" placeholder="(kg)" class="peso"> 
+                <label for="altura">Altura</label>
+                <input type="text" name="altura" id="altura" placeholder="(m)" class="altura">
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="resultado">
+                <h1 class="valorImc">0</h1>
+            </div>
+        </aside>
+        <footer>
+            <article>
+                <p>Site criado por thiago silva</p>
+            </article>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
